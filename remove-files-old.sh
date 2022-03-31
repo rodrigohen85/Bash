@@ -16,7 +16,7 @@ echo "======================================================"
 cd $directory
 sleep 3
 
-echo "Aoagando arquivos..."
+echo "Apagando arquivos..."
 find $directory -mtime +30 -exec rm {} \;
 sleep 3
 echo "Arquivos com mais de 30 dias apagados"
